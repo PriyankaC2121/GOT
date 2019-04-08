@@ -70,8 +70,6 @@ import statsmodels.formula.api as smf
 
 import sklearn
 from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import Ridge
-from sklearn.linear_model import Lasso
 from sklearn.neighbors import KNeighborsClassifier
 
 from sklearn.model_selection import train_test_split
