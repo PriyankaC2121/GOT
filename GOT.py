@@ -775,13 +775,6 @@ def func(x):
     else:
         return 1
 
-#def func(x):
-    if x < 0.6:
-        return 0
-    elif x < 0.76:
-        return 1
-    else:
-        return 2
 
 Alive_nobmar_mean['nobmar_m1'] = Alive_nobmar_mean['isAlive'].map(func)
 
